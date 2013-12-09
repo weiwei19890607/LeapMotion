@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE FubiRecognizers SYSTEM "FubiRecognizers.dtd">
+<FubiRecognizers>
+  <FingerCountRecognizer name="RightHandOpenFist" >
+    <Joint name="rightHand"/>
+    <FingerCount min="2" />
+  </FingerCountRecognizer>
+ <FingerCountRecognizer name="RightHandCloseFist" >
+    <Joint name="rightHand"/>
+    <FingerCount max="0" />
+  </FingerCountRecognizer>
+
+</FubiRecognizers>
